@@ -63,7 +63,13 @@ body{
     }
     button:focus{background: silver;}
     .activeBox{background: silver;}
-
+    footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        font-size: larger;
+    }
 @media(max-width:680px){
     #container{
         margin-top: 30%;
